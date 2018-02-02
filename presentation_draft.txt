@@ -1,0 +1,35 @@
+Goal:
+
+in Denver, look for a relationship between house prices and distance to nearest marijuana dispensary
+
+
+Methodology:
+
+collection-
+    current house listings scraped from Redfin
+    dispensary addresses scraped from coloradopotguide
+    coordinates from google maps
+
+cleaning-
+    started with:
+        address, house price, bedrooms, bathrooms, sqft of house, sqft of lot,
+        year built, type of garage, number of nearby bus lines,
+        distance to nearest dispensary, average price of nearest 5, 10, 15, 20 houses
+    modeled: 
+        house price based on distance to nearest dispensary, avg nearest 5
+    transforming:
+        log transformed hp, dist, avg because all started heavily right skewed
+    outliers:
+        still a few datapoints far out, removed anything more than 3 sd from the mean
+
+
+Results:
+    
+
+
+Recomendations:
+
+
+Looking Ahead:
+
+
